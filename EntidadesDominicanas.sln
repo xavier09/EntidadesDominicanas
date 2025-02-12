@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesDominicanas.API", "SB.EntidadesDomicinacas.API\SB.EntidadesDominicanas.API.csproj", "{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesDominicanas.Interfaz", "SB.EntidadesDominicanas.Interfaz\SB.EntidadesDominicanas.Interfaz.csproj", "{126916A8-7138-4D32-81DE-9D1403A03E58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC} = {E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
