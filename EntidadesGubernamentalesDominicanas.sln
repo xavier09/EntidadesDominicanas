@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesGubernamentalesDominicanas.API", "SB.EntidadesGubernamentalesDomicinacas.API\SB.EntidadesGubernamentalesDominicanas.API.csproj", "{0BF829D6-C9AD-4FBC-B61E-0522CF14D564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesGubernamentalesDominicanas.Interfaz", "SB.EntidadesGubernamentalesDominicanas.Interfaz\SB.EntidadesGubernamentalesDominicanas.Interfaz.csproj", "{28E472A6-66C3-4C37-A1E7-E786290F9083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BF829D6-C9AD-4FBC-B61E-0522CF14D564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF829D6-C9AD-4FBC-B61E-0522CF14D564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF829D6-C9AD-4FBC-B61E-0522CF14D564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF829D6-C9AD-4FBC-B61E-0522CF14D564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E472A6-66C3-4C37-A1E7-E786290F9083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E472A6-66C3-4C37-A1E7-E786290F9083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E472A6-66C3-4C37-A1E7-E786290F9083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E472A6-66C3-4C37-A1E7-E786290F9083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

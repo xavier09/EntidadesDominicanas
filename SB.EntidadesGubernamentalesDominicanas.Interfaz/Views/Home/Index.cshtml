@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+
+    <div class="login-container">
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Nombre de usuario</label>
+                <input type="text" id="nombreUsuario" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Clave</label>
+                <input type="password" id="clave" name="password" required>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="GenerarTokenJwt()">Generar Jwt Token</button>
+
+        </form>
+    </div>
+    <p></p>
+
+</div>

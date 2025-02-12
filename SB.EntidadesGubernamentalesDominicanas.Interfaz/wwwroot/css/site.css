@@ -1,0 +1,170 @@
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.tituloP {
+    margin-bottom: 20px !important;
+}
+
+@media (min-width: 768px) {
+    html {
+    font-size: 16px!important;
+  }
+}
+
+ul {
+    margin: 0!important;
+    padding: 0!important;
+    box-sizing: border-box!important;
+    font-family: Arial, sans-serif!important;
+}
+
+body {
+    display: flex !important!important;
+    height: 100vh!important;
+    background-color: #eaf0f6!important;
+}
+
+.containerC {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.sidebar {
+    width: 250px!important;
+    background-color: #0c2d48!important;
+    color: white!important;
+    padding: 20px!important;
+    height: 100vh!important;
+    position: relative!important;
+}
+
+.logo h2 {
+    margin: 0!important;
+    font-size: 24px!important;
+}
+
+.logo p {
+    font-size: 12px!important;
+    line-height: 1.4!important;
+}
+
+nav ul {
+    list-style: none!important;
+    margin-top: 20px!important;
+}
+
+    nav ul li {
+        padding: 10px!important;
+        cursor: pointer!important;
+        font-size: 16px!important;
+    }
+
+    nav ul .active {
+        background-color: rgba(255, 255, 255, 0.1)!important;
+        border-radius: 5px!important;
+    }
+
+    .active {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        border-radius: 5px !important;
+    }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1!important;
+    display: flex!important;
+    flex-direction: column!important;
+    position: relative!important;
+}
+
+header {
+    background-color: #0c2d48!important;
+    color: white!important;
+    padding: 15px!important;
+    font-size: 20px!important;
+    font-weight: bold!important;
+    text-align: center!important;
+    width: 100%!important;
+    position: relative!important;
+}
+
+    /* Crear la esquina redondeada en la conexión */
+    header::before {
+        content: ""!important;
+        position: absolute!important;
+        left: 0!important;
+        bottom: 20px!important;
+        width: 40px!important;
+        height: -40px!important;
+        background-color: #0c2d48!important;
+        border-radius: 40px!important;
+    }
+
+.main-box {
+    background: white!important;
+    border-radius: 20px!important;
+    padding: 20px!important;
+    min-height: 300px!important;
+    margin: 20px!important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)!important;
+}
+
+.titulo {
+   display: flex; !important;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+    .login-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+.btnog {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnog:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center; /* Center the error message */
+}

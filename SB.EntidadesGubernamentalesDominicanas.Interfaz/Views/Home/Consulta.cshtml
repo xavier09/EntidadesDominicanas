@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Consulta";
+}
+
+
+<div class="text-center">
+    <table id="dataTable" class="row-border hover stripe">
+    </table>
+    <script src="~/js/consultarEntidades.js" asp-append-version="true"></script>
+
+
+    <div class="modal fade" id="ModalActualizar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Actualizar</h5>
+                 
+                </div>
+                <div class="modal-body">
+                    <input type="text" id="nombreEntidad" class="form-control">
+                    <input type="hidden" id="IdEntidad" value="">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="idEntidadButton" onclick="ActualizarData()" class="btn btn-primary">Guardar cambios</button>
+                    <button type="button" onclick="CerrarModal()" class="btn btn-danger">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
