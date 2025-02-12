@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesDominicanas.API", "SB.EntidadesDomicinacas.API\SB.EntidadesDominicanas.API.csproj", "{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SB.EntidadesDominicanas.Interfaz", "SB.EntidadesDominicanas.Interfaz\SB.EntidadesDominicanas.Interfaz.csproj", "{126916A8-7138-4D32-81DE-9D1403A03E58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D4F937-4D2F-4D7C-AF3E-576459DEF8AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126916A8-7138-4D32-81DE-9D1403A03E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126916A8-7138-4D32-81DE-9D1403A03E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126916A8-7138-4D32-81DE-9D1403A03E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126916A8-7138-4D32-81DE-9D1403A03E58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

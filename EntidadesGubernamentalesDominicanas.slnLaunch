@@ -3,12 +3,12 @@
     "Name": "Ejecutar Visual y API",
     "Projects": [
       {
-        "Path": "SB.EntidadesGubernamentalesDomicinacas.API\\SB.EntidadesGubernamentalesDominicanas.API.csproj",
+        "Path": "SB.EntidadesGubernamentalesDomicinacas.API\\SB.EntidadesGubernamentales.API.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       },
       {
-        "Path": "SB.EntidadesGubernamentalesDominicanas.Interfaz\\SB.EntidadesGubernamentalesDominicanas.Interfaz.csproj",
+        "Path": "SB.EntidadesGubernamentalesDominicanas.Interfaz\\SB.EntidadesGubernamentales.Interfaz.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       }
