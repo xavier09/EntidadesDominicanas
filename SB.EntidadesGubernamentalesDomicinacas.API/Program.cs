@@ -17,7 +17,7 @@ Log.Logger = new LoggerConfiguration()
           .CreateLogger();
 
 
-// Add services to the container.
+// Add services to the container
 
 builder.Services.AddControllers();
 
