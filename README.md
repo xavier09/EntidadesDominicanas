@@ -1,4 +1,4 @@
-Pasos para probar el proyectó:
+Pasos para probar el proyectó tanto del swagger como de la visual:
 
 •	En el botón Code de GitHub como se muestra la imagen de abajo, pueden tanto abrir el proyecto directamente en Visual Studio (se utilizó Visual Studio 2022 con .NET8) o descargarlo y luego descomprimirlo para abrirlo con Visual Studio.
 
