@@ -14,4 +14,5 @@ Pasos para probar el proyectó:
 Credenciales para generar el token:
 
 nombre de usuario: AdminSBUser
+
 clave: QaB750tfKO
