@@ -10,6 +10,8 @@ Pasos para probar el proyectó:
 ![image](https://github.com/user-attachments/assets/62d45223-d717-4e8c-bcb3-82f40c946144)
 
 •	En la pantalla inicio de la visual o en el método de GenerarJwtToken del swagger pueden generar el token Jwt, ingresando las siguientes credenciales:
+
 Credenciales para generar el token:
+
 nombre de usuario: AdminSBUser
 clave: QaB750tfKO
