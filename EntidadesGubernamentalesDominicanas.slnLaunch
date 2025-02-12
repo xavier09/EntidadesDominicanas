@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Ejecutar Visual y API",
+    "Projects": [
+      {
+        "Path": "SB.EntidadesGubernamentalesDomicinacas.API\\SB.EntidadesGubernamentalesDominicanas.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "SB.EntidadesGubernamentalesDominicanas.Interfaz\\SB.EntidadesGubernamentalesDominicanas.Interfaz.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]

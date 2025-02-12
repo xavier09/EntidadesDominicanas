@@ -216,7 +216,7 @@ namespace SB.EntidadesGubernamentalesDomicinacas.API.Controllers
 
                         //crear detalle del token
                         jwtConfig = new JwtSecurityToken(
-                            expires: DateTime.UtcNow.AddMinutes(15),
+                            expires: DateTime.UtcNow.AddMinutes(30),
                             claims: userClaim,
                             signingCredentials: credentials
                             );

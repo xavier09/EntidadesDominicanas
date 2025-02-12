@@ -14,7 +14,7 @@
 function GenerarTokenJwt() {
 
     $.ajax({
-        url: "http://localhost:5046/api/EntidadesGubernamentalesDominicanas/GenerarJwtToken",
+        url: "https://localhost:7244/api/EntidadesGubernamentalesDominicanas/GenerarJwtToken",
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({ Clave: $('#clave').val(), NombreUsuario: $('#nombreUsuario').val() }),
@@ -69,7 +69,7 @@ function RegistrarEntidad() {
     }
 
     $.ajax({
-        url: "http://localhost:5046/api/EntidadesGubernamentalesDominicanas/RegistrarEntidad",
+        url: "https://localhost:7244/api/EntidadesGubernamentalesDominicanas/RegistrarEntidad",
         type: "POST",
         contentType: "application/json",
         data: JSON.stringify({ IdEntidad: generateUUID(), NombreEntidad: $('#nombre_entidad').val() }),

@@ -17,7 +17,7 @@ function ConsultarEntidades() {
     }
 
     $.ajax({
-        url: "http://localhost:5046/api/EntidadesGubernamentalesDominicanas/ConsultarListaEntidades",
+        url: "https://localhost:7244/api/EntidadesGubernamentalesDominicanas/ConsultarListaEntidades",
         type: "GET",
         contentType: "application/json",
         //data: JSON.stringify({ IdEntidad: generateUUID(), NombreEntidad: $('#nombre_entidad').val() }),
@@ -104,7 +104,7 @@ function mostrarDataTable(json) {
         columnDefs: [
             {
                 defaultContent: "-", "targets": "_all",
-                className: 'dt-body-right'
+                className: 'dt-body-left'
             }
         ],
         "language": {
@@ -142,7 +142,7 @@ function ActualizarData() {
     }
 
     $.ajax({
-        url: "http://localhost:5046/api/EntidadesGubernamentalesDominicanas/ActualizarNombreEntidad",
+        url: "https://localhost:7244/api/EntidadesGubernamentalesDominicanas/ActualizarNombreEntidad",
         type: "PUT",
         contentType: "application/json",
         data: JSON.stringify({ IdEntidad: $('#idEntidadButton').val(), NombreEntidad: $("#nombreEntidad").val() }),
@@ -214,7 +214,7 @@ function borrar(idEntidad, nombreEntidad) {
     }
 
     $.ajax({
-        url: "http://localhost:5046/api/EntidadesGubernamentalesDominicanas/BorrarEntidad",
+        url: "https://localhost:7244/api/EntidadesGubernamentalesDominicanas/BorrarEntidad",
         type: "DELETE",
         contentType: "application/json",
         data: JSON.stringify({ IdEntidad: idEntidad, nombreEntidad : nombreEntidad }),
