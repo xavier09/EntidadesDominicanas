@@ -5,9 +5,9 @@ Pasos para probar el proyecto tanto del swagger como de la visual:
 ![image](https://github.com/user-attachments/assets/86a6e499-0ec1-43d3-b22e-5420854f6a0a)
 
 
-•	Ejecutar el proyecto seleccionando el perfil que ve en la imagen de abajo. o pueden ejecutarlo individual pero ambos deben de  estar corriendo al mismo tiempo para  hacer las pruebas.
+•	Ejecutar el proyecto seleccionando el perfil que ve en la imagen de abajo. o pueden ejecutarlo individual pero la API debe estar en ejecucion para que funcione  la visual.
 
-![image](https://github.com/user-attachments/assets/62d45223-d717-4e8c-bcb3-82f40c946144)
+![image](https://github.com/user-attachments/assets/f40ce95e-fa06-4d3b-84ad-8e3e15c8dd35)
 
 •	En la pantalla inicio de la visual o en el método de GenerarJwtToken del swagger pueden generar el token Jwt, ingresando las siguientes credenciales:
 
