@@ -5,7 +5,7 @@ Pasos para probar el proyecto tanto del swagger como de la visual:
 ![image](https://github.com/user-attachments/assets/86a6e499-0ec1-43d3-b22e-5420854f6a0a)
 
 
-•	Ejecutar el proyecto seleccionando el perfil que ve en la imagen de abajo, para ques se ejecuten ambos projectos al mismo tiempo, o pueden ejecutarlo cada uno individualmente pero la API debe estar en ejecucion para que funcione  la visual.
+•	Ejecutar el proyecto seleccionando el perfil que ve en la imagen de abajo, para ques se ejecuten ambos projectos al mismo tiempo, o pueden ejecutarlo cada uno individualmente pero la API debe estar en ejecución para que funcione  la visual.
 
 ![image](https://github.com/user-attachments/assets/f40ce95e-fa06-4d3b-84ad-8e3e15c8dd35)
 
